@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #define NEW(p,n) {p = malloc((n)*sizeof(p[0]));}
 
-
 typedef struct slobj_ {
   struct slobj_ *next;// 後の要素へのポインタ
   int j;// j 列目
